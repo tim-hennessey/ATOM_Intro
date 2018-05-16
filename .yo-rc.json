@@ -1,0 +1,7 @@
+{
+  "generator-banner": {
+    "bannerType": "DoubleClick Manager",
+    "includeZepto": false,
+    "includeGSAPExtras": false
+  }
+}
