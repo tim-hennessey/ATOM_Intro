@@ -6,7 +6,7 @@ body {
 }
 
 #banner {
-    background: linear-gradient(125deg, #34c6c7 15%, #1eaef1 50%, #a7b0fb 75%);
+    background: linear-gradient(145deg, #34c6c7 15%, #1eaef1 50%, #a7b0fb 75%);
     position: absolute;
     overflow: hidden;
     width: $banner-width;
@@ -27,76 +27,81 @@ body {
         width: 100%;
     }
 
-    .corn {
+
+    #kernel1 {
         position: absolute;
-        right: 70px;
-        bottom: 100px;
-        visibility: hidden;
+        left: 15px;
+        top: 210px;
     }
 
-    #kernel5 {
+    #kernel2 {
         position: absolute;
-        left: 20px;
-        top: 5px;
+        left: 250px;
+        top: 425px;
     }
 
-    #kernel6 {
+    #kernel3 {
         position: absolute;
-        left: 120px;
-        top: 165px;
+        left: 50px;
+        top: -22px;
     }
 
-    #kernel7 {
+    #kernel4 {
         position: absolute;
-        left: 3px;
-        top: 25px;
-    }
-
-    #kernel8 {
-        position: absolute;
-        right: 5px;
-        top: 160px;
+        left: 2px;
+        top: 350px;
     }
 
     #bg {
-        width: $banner-width - 40;
-        height: $banner-height - 40;
+        width: $banner-width - 44;
+        height: $banner-height - 44;
         background: black;
         position: absolute;
         overflow: hidden;
-        left: 20px;
-        top: 20px;
+        left: 22px;
+        top: 22px;
+
 
         #txt1 {
             position: absolute;
             left: 0;
-            top: 35px;
+            top: 62px;
+
+            #txt1a {
+                position: absolute;
+                left: 0;
+                top: 0;
+                clip: rect(0px,172px,65px,0px);
+            }
+
+            #txt1b {
+                position: absolute;
+                left: -125px;
+                top: 65px;
+                clip: rect(0px,226px,28px,140px);
+            }
         }
-        #txt2 {
-            position: absolute;
-            left: 0;
-            top: 40px;
-        }
+
         #txt3 {
             position: absolute;
             left: 0;
-            top: 40px;
+            top: 62px;
         }
         #txt4 {
             position: absolute;
             left: 0;
-            top: 40px;
+            top: 55px;
         }
         #logo {
             position: absolute;
-            left: 0;
+            right: 0;
             bottom: 0;
         }
         #cta {
-            left: 13px;
-            top: 104px;
-            width: 98px;
-            height: 22px;
+            left: 30px;
+            top: 140px;
+            width: 129px;
+            height: 29px;
             border-radius: 3px;
             background-color: #ffae21;
             overflow: hidden;
@@ -105,16 +110,14 @@ body {
             #cta_txt {
                 left: 0;
                 top: 0;
-                width: 98px;
-                height: 22px;
                 position: absolute;
             }
 
             #light {
-                left: 100px;
+                left: 130px;
                 top: 0;
-                width: 98px;
-                height: 22px;
+                width: 129px;
+                height: 29px;
                 background: linear-gradient(135deg, #ffae21 0%, #ffffff 50%, #ffae21 100%);
                 position: absolute;
             }
@@ -123,9 +126,16 @@ body {
 
     #device {
         position: absolute;
-        right: 3px;
-        bottom: 8px;
+        left: 0;
+        bottom: 0;
         transform: translate3d(0, 0, 0.1px);
+    }
+
+    #screen {
+        position: absolute;
+        left: 0;
+        bottom: 34px;
+        opacity:0;
     }
 
 
