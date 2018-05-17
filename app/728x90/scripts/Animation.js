@@ -48,7 +48,7 @@ app.Animation = (function () {
 
             .from(kernel1, 1, {y: -100, rotation: -90, ease: Cubic.easeIn},"+=.2")
             .from(kernel2, 1, {y: -130, rotation: -90, ease: Cubic.easeIn}, "-=.75")
-            .from(kernel3, 1, {y: -100, rotation: -90, ease: Cubic.easeIn}, "-=.65")
+            .from(kernel3, 1, {y: -120, rotation: -90, ease: Cubic.easeIn}, "-=.65")
             .from(kernel4, 1, {y: -100, rotation: -90, ease: Cubic.easeIn}, "-=.75");
 
         tl2.from(txt1, .5, {y: -90, ease: Cubic.easeOut},"+=.5")

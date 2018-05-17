@@ -57,7 +57,7 @@ app.Animation = (function () {
             .to(txt1, .5, {x: -300, ease: Cubic.easeIn}, "+=2")
 
             .from(txt3, .5, {x: 300, ease: Cubic.easeOut})
-            .to(txt3, .5, {x: -300, ease: Cubic.easeIn}, "+=2")
+            .to(txt3, .5, {x: -300, ease: Cubic.easeIn}, "+=3")
 
             .from(txt4, .5, {x: 300, ease: Cubic.easeOut})
             .from(cta, .5, {x: 300, ease: Cubic.easeOut}, "-=.25")
