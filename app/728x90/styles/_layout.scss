@@ -1,0 +1,134 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    margin: 0;
+}
+
+#banner {
+    background: linear-gradient(160deg, #34c6c7 15%, #1eaef1 50%, #a7b0fb 75%);
+    position: absolute;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    left: 50%;
+    top: 50%;
+    margin-left: -$banner-width / 2;
+    margin-top: -$banner-height / 2;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+
+    #kernel1 {
+        position: absolute;
+        left: 5px;
+        top: -6px;
+        transform: scale(.8);
+    }
+
+    #kernel2 {
+        position: absolute;
+        left: 120px;
+        top: 90px;
+        transform: scale(.9);
+    }
+
+    #kernel3 {
+        position: absolute;
+        left: 650px;
+        top: 64px;
+        transform: scale(.9);
+    }
+
+    #kernel4 {
+        position: absolute;
+        right: 3px;
+        top: 1px;
+    }
+
+    #bg {
+        width: $banner-width - 24;
+        height: $banner-height - 24;
+        background: black;
+        position: absolute;
+        overflow: hidden;
+        left: 12px;
+        top: 12px;
+
+        #txt1 {
+            position: absolute;
+            left: 115px;
+            top: 19px;
+        }
+        #txt2 {
+            position: absolute;
+            left: 118px;
+            top: 20px;
+        }
+        #txt3 {
+            position: absolute;
+            left: 118px;
+            top: 21px;
+        }
+
+        #logo {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        #cta {
+            right: 19px;
+            top: 20px;
+            width: 129px;
+            height: 29px;
+            border-radius: 3px;
+            background-color: #ffae21;
+            overflow: hidden;
+            position: absolute;
+
+            #cta_txt {
+                left: 0;
+                top: 0;
+                width: 129px;
+                height: 29px;
+                position: absolute;
+            }
+
+            #light {
+                left: 130px;
+                top: 0;
+                width: 129px;
+                height: 29px;
+                background: linear-gradient(135deg, #ffae21 0%, #ffffff 50%, #ffae21 100%);
+                position: absolute;
+            }
+        }
+    }
+
+    #device {
+        position: absolute;
+        right: 32px;
+        bottom: 0;
+        transform: translate3d(0, 0, 0.1px);
+    }
+
+    #legal {
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        opacity:0;
+    }
+
+
+
+
+}
